@@ -9,6 +9,7 @@ builds:
   - main: ./bin/memos
     binary: memos
     goos:
+      - freebsd
       - linux
       - darwin
 
